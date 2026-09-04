@@ -1,0 +1,30 @@
+# CAUCAFall data (large files; keep locally only)
+/Dataset CAUCAFall/
+/caucafall_normalized/
+/data/
+
+# Training outputs
+/checkpoints/
+/models/
+/runs/
+*.weights
+*.ckpt
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and operating systems
+/.vscode/
+/.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+
